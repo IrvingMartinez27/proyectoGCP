@@ -1,0 +1,38 @@
+# Dependencias y entornos virtuales
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+credentials.json
+credenciales.json
+token.json
+*.pem
+*.key
+
+# Archivos temporales y de transcripciones locales
+transcriptions_*.json
+*.log
+logs/
+
+# IDEs y configuración de editores
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Builds y empaquetado
+dist/
+dist-ssr/
+build/

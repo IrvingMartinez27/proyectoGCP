@@ -167,7 +167,7 @@ if __name__ == "__main__":
         print("❌ Error: PUBSUB_TOPIC o PROJECT_ID no están definidos en las variables de entorno.")
         exit(1)
 
-    MEETING_TITLE = "TEST2"
+    MEETING_TITLE = "TESTVarios"
     MEETING_DESCRIPTION = "TEST BUCKET."
     
     ahora = datetime.datetime.now()
@@ -175,7 +175,7 @@ if __name__ == "__main__":
     END_DATE = ahora + datetime.timedelta(minutes=30)
     
     # Coloca los correos que se unirán a la sesión
-    INVITEE_EMAILS = []
+    INVITEE_EMAILS = ["juarez.joseluis@gmail.com"]
 
     enlace_meet = crear_evento_google_meet(
         MEETING_TITLE,
